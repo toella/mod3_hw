@@ -30,4 +30,4 @@ public class hw2 {
 
 	}
 
-}
+
