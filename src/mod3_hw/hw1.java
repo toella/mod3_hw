@@ -93,23 +93,20 @@ public class hw1 {
 		  System.out.print("Choose a number");
 		  num = scan.nextInt();
 		  
-		  if(num < 0) 
+		  if(num%2==1) 
 		  {
 			  System.out.println("Cool");
 		  }
-		  if(num > 0)
-		  {
-			  System.out.println("Very Cool");
-		  }
-		  if (num > 0 && num <=2-5)
+		 
+		  if (num%2==0 && num <=2-5)
 		  {
 			  System.out.println("Not Cool");
 		  }
-		  if (num > 0 && num <= 6-20)
+		  if (num%2==0 && num <= 6-20)
 		  {
 			  System.out.println("Cool");
 		  }
-		  if (num > 0 && num > 20)
+		  if (num%2==0 && num > 20)
 		  {
 			  System.out.println("Not Cool");
 		  }

@@ -13,27 +13,47 @@ public class hw2 {
 		
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter starting Value");
+		System.out.println("Enter starting & ending Value");
+		
+		
 		start= scan.nextInt();
-		
-		Scanner scana = new Scanner(System.in);
-		System.out.println("Enter an ending Value");
-		finish= scana.nextInt();
+		finish= scan.nextInt();
 		
 		
-		While (counter < N); {
-			System.out.print(start + " ");
-			int fib = start + finish;
-			start =finish;
-			finish = fib;
-			counter = counter + 1;
-		}
+		
+		
+		int i = 1;
+        while (i<-1)
+        {
+            int sum = start + finish;
+            start = finish;
+            finish = sum;
+            System.out.print(" " + sum);
+            i++;
+        }
+		
+		
+		
+		
+		
+		
+				
+//		
+//		While (counter < N); {
+//			System.out.print(start + " ");
+//			int fib = start + finish;
+//			start =finish;
+//			finish = fib;
+//			counter = counter + 1;
+		
 		
 		
 	
 	
 		
-			System.out.println("N");
+			System.out.println(" is a fibonacci number");{
+			
+			}
 		
 		
 //
@@ -47,7 +67,7 @@ public class hw2 {
 		
 		
 		Scanner scann = new Scanner(System.in);
-		System.out.println("Enter a number is ir an Armstrong number?");
+		System.out.println("Enter a number, is it an Armstrong number?");
 		num = scann.nextInt();
 		
 		originalNumber = num;
@@ -84,7 +104,7 @@ public class hw2 {
 		
 		int length = str.length();
 		
-		for(int i = length - 1; i >=0; i-- )
+		for(int ii = length - 1; i >=0; i-- )
 			rev = rev + str.charAt(i);
 		
 		
@@ -93,6 +113,7 @@ public class hw2 {
 		else
 			System.out.println(str + "is not a palindrome!!");
 	}
+	
 
 	private static void While(boolean b) {
 		// TODO Auto-generated method stub
